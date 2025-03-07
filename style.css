@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    max-height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.subtop {
+    display: flex;
+    min-height: 600px;
+    background-image: url(../landing-page/img/codes.png);
+    background-size: cover;
+}
+
+.main {
+
+}
+
+.container {
+
+}
+
+.bottom {
+
+}
+
+.footer {
+
+
+}
+
