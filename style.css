@@ -1,7 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    color: greenyellow;
+    text-shadow: 0 0 10px #00ffcc;
+    background-color: black;
+    font-family: "Share Tech Mono", monospace;
 }
 
 .top {
@@ -11,6 +14,17 @@ body {
     margin: 0 15px;
     max-height: 50px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    gap: 5px;
+
+}
+
+
 
 ul {
     display: flex;
@@ -26,25 +40,71 @@ li a {
 
 .subtop {
     display: flex;
+    justify-content: space-between;
     min-height: 600px;
-    background-image: url(../landing-page/img/codes.png);
+    background-image: url(../landing-page/img/codes4.png);
     background-size: cover;
+    
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.772);
+    text-align: center;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.topimg {
+    width: 400px;
 }
 
 .main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.media {
+    text-align: center;
+    max-width: 300px;
+}
+
+.container, .bottom {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    align-items: center;
 
 }
 
-.container {
-
+.text-box {
+    background-color: green;
+    max-height: 200px;
+    padding: 20px;
 }
 
-.bottom {
+
+.bottom-box {
+    background-color: green;
+    max-height: 150px;
+    padding: 20px;
+    border-radius: 20px;
 
 }
 
 .footer {
-
+    text-align: center;
 
 }
 
