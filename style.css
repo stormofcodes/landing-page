@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    color: greenyellow;
-    text-shadow: 0 0 10px #00ffcc;
-    background-color: black;
+    color: #60ff83;
+    text-shadow: 0 0 10px #00ff3c;
+    background-color: #0a0000;
     font-family: "Share Tech Mono", monospace;
 }
 
@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 15px;
+    padding: 0 100px;
     max-height: 50px;
 }
 
@@ -34,50 +35,62 @@ ul {
     gap: 30px;
 }
 
-li a {
+a {
     text-decoration: none;
+    color: aquamarine;
 }
 
 .subtop {
     display: flex;
     justify-content: space-between;
-    min-height: 600px;
+    align-items: center;
+    min-height: 400px;
     background-image: url(../landing-page/img/codes4.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 100px;
+    padding-bottom: 100px;
     
 }
 
 .info {
     background-color: rgba(0, 0, 0, 0.772);
-    text-align: center;
-    max-width: 500px;
+    text-align: left;
+    max-width: 60%;
+    padding: 10px 30px;
 }
 
 .title {
     font-size: 70px;
     text-align: center;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 
 .topimg {
     width: 400px;
+    height: 250px;
 }
 
 .main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin: 30px 0;
+    gap: 40px;
 }
 
 img {
-    width: 250px;
+    width: 200px;
     height: auto;
+    padding: 20px 0;
 }
 
 .media {
     text-align: center;
-    max-width: 300px;
+    max-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .container, .bottom {
@@ -88,19 +101,52 @@ img {
 
 }
 
+.container {
+    background-color: #290408;
+}
+
 .text-box {
-    background-color: green;
+    background-color: #290408;
     max-height: 200px;
+    max-width: 70%;
     padding: 20px;
+}
+
+.main-text
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sub-text {
+    text-align: right;
+    margin-right: 60px;
+    font-size: 20px;
 }
 
 
 .bottom-box {
-    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4c914c;
     max-height: 150px;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 20px 100px;
+    margin-top: 30px;
+    min-width: 70%;
+    font-size: 20px;
 
+
+
+
+}
+
+button {
+ padding: 5px 20px;
+ margin-bottom: 5px;
+ background-color: rgb(203 6 14);
+ max-height: 40px;
+ font-size: 15px;
 }
 
 .footer {
