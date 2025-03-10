@@ -11,18 +11,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;
-    padding: 0 100px;
-    max-height: 50px;
+    padding: 0px 100px 5px;
+    height: 50px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    height: 50px;
-    width: auto;
     gap: 5px;
 
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 
@@ -129,12 +131,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #4c914c;
+    background-color: #022309;
     max-height: 150px;
     padding: 20px 100px;
     margin-top: 30px;
     min-width: 70%;
     font-size: 20px;
+    border-radius: 10px;
 
 
 
@@ -147,6 +150,7 @@ button {
  background-color: rgb(203 6 14);
  max-height: 40px;
  font-size: 15px;
+ border-radius: 5px;
 }
 
 .footer {
